@@ -11,9 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'StudentController@index');
 
 //Route::post('student/save',['uses'=>'StudentController@save']);
 /*

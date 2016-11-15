@@ -30,7 +30,7 @@
                 @section('left')
                     <div class="list-group">
                         <a href="{{url('student/index')}}" class="list-group-item text-center
-                        {{Request::getPathInfo()=='/student/index'?'active':''}}"
+                        {{Request::getPathInfo()=='/student/index'||Request::getPathInfo()=='/'?'active':''}}"
                         >Students Information</a>
                         <a href="{{url('student/create')}}" class="list-group-item text-center
                         {{Request::getPathInfo()=='/student/create'?'active':''}}"

@@ -39,6 +39,7 @@
         <div class="container">
             <div class="content">
                 <div class="title">Laravel 5-Ye Wang</div>
+                <h2><a href="student/index">Go to Trail!</a></h2>
             </div>
         </div>
     </body>

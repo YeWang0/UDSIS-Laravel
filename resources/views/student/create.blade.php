@@ -4,7 +4,7 @@
 @section('head')
     <div class="jumbotron">
         <div class="container">
-            <h1>Laravel -For Web Artisans</h1>
+            <h1>Student Information System</h1>
             <h3>——Create page</h3>
         </div>
     </div>
