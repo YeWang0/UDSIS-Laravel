@@ -1,3 +1,19 @@
+# Student Information system
+A simple student information system develped with Laravel. 
+
+## Dependency
+MAMP(recommend)
+or
+Apache server
+PHP
+MySQL
+
+## Run
+1. Put the folder under /apache/htdoc
+2. start apache
+3. Go to http://host:port/UDSIS/public/student/index
+
+
 # Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
