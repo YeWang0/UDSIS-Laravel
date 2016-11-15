@@ -1,4 +1,4 @@
-<?php
+l<?php
 
 /*
 |--------------------------------------------------------------------------
@@ -24,7 +24,6 @@ Route::get('/', 'StudentController@index');
 | kernel and includes session state, CSRF protection, and more.
 |
 */
-
 Route::group(['middleware' => ['web']], function () {
     //
     Route::get('student/index',['uses'=>'StudentController@index']);
